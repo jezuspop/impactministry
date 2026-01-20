@@ -6,6 +6,7 @@ A mobile-friendly landing page for the GPCC Singles Impact Ministry.
 
 - `index.html` — The main landing page (must be named `index.html` for GitHub Pages)
 - `impact-logo.png` — The Impact Ministry logo
+- `.nojekyll` — Empty file that tells GitHub Pages to skip Jekyll processing (required for proper styling)
 
 ## Setup for GitHub Pages
 
@@ -16,6 +17,21 @@ A mobile-friendly landing page for the GPCC Singles Impact Ministry.
 3. The page will be accessible at `https://yourusername.github.io/repositoryname/`
 
 **Important:** The HTML file MUST be named `index.html` for GitHub Pages to serve it correctly.
+
+## Troubleshooting
+
+If the page shows unstyled text:
+
+1. Make sure all 3 files are in your repository root:
+   - `index.html`
+   - `impact-logo.png`
+   - `.nojekyll`
+
+2. Check that `index.html` starts with `<!DOCTYPE html>` — open the file on GitHub and verify it's actual HTML, not markdown or corrupted text
+
+3. Hard refresh your browser: `Ctrl+Shift+R` (Windows) or `Cmd+Shift+R` (Mac)
+
+4. Wait 1-2 minutes for GitHub Pages to rebuild after pushing changes
 
 ## Customization
 
