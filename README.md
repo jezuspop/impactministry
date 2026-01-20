@@ -4,14 +4,18 @@ A mobile-friendly landing page for the GPCC Singles Impact Ministry.
 
 ## Files Included
 
-- `gpcc-singles.html` — The main landing page
+- `index.html` — The main landing page (must be named `index.html` for GitHub Pages)
 - `impact-logo.png` — The Impact Ministry logo
 
-## Setup
+## Setup for GitHub Pages
 
-1. Upload both files to your web hosting service (e.g., GitHub Pages, Netlify, your church website)
-2. Make sure both files are in the same folder/directory
-3. The page will be accessible at your hosted URL
+1. In your GitHub repository, make sure you have both files in the root folder:
+   - `index.html`
+   - `impact-logo.png`
+2. Go to **Settings** → **Pages** → set source to your branch (usually `main`)
+3. The page will be accessible at `https://yourusername.github.io/repositoryname/`
+
+**Important:** The HTML file MUST be named `index.html` for GitHub Pages to serve it correctly.
 
 ## Customization
 
